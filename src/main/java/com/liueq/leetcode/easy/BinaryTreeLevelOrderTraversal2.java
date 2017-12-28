@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -129,13 +131,4 @@ public class BinaryTreeLevelOrderTraversal2 {
         //每当递归返回一层，那么 level 就-1，而 list.size 不变。那么 list.size -level - 1 就越来越大，这样就满足了条件中了逆向。
     }
 
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }

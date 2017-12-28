@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -118,13 +120,4 @@ public class MinimumDepthOfBinaryTree {
     }
 
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }

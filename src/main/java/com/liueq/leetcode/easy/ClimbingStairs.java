@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.TreeNode;
+
 /**
  * 问题描述：使用跨度1，2，到达长度 n 的所有可能性。
  *
@@ -156,18 +158,6 @@ public class ClimbingStairs {
 
         public int getWays() {
             return ways;
-        }
-
-        static class TreeNode {
-            int value;
-            TreeNode left;
-            TreeNode right;
-
-            public TreeNode(int value) {
-                left = null;
-                right = null;
-                this.value = value;
-            }
         }
     }
 

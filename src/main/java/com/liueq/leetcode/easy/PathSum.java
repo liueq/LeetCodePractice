@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.TreeNode;
+
 /**
  * 问题描述：给定一个数字，查看一个二叉树是否存在从 root 到某一个叶子节点，所经过节点值之和是否等于这个数字的路径。
  *
@@ -63,13 +65,4 @@ public class PathSum {
         recursiveTree(node.right, sum, target);
     }
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }

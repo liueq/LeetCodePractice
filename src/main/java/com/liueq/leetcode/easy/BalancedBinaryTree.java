@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.TreeNode;
+
 /**
  * 问题描述：判断一个二叉树是否是平衡二叉树
  * <p>
@@ -40,13 +42,4 @@ public class BalancedBinaryTree {
         return (leftHeight > rightHeight ? leftHeight : rightHeight) + 1;
     }
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }

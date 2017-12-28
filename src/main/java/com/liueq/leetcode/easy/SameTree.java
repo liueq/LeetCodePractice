@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.TreeNode;
+
 /**
  * 问题描述：判断两个二叉树是否相同。
  * <p>
@@ -203,13 +205,4 @@ public class SameTree {
     volatile int complete = 0;
     volatile int sum = 0;
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        public TreeNode(int val) {
-            this.val = val;
-        }
-    }
 }

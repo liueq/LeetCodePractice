@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.TreeNode;
+
 /**
  * 问题描述：将一个有序数组转换成一个平衡查找二叉树
  * <p>
@@ -86,13 +88,5 @@ public class ConvertedSortedArrayToBST {
         printTree(node.right);
     }
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
 
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }
