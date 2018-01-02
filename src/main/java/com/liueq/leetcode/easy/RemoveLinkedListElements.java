@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.ListNode;
+
 /**
  * 问题描述：删除链表节点
  *
@@ -57,12 +59,4 @@ public class RemoveLinkedListElements {
         return head.val == val ? head.next : head;
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }

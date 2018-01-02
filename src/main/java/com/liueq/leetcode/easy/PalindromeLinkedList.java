@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -106,9 +108,4 @@ public class PalindromeLinkedList {
         return fakeHead.next;
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
 }

@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.ListNode;
+
 /**
  * 问题描述：移除一个链表中的重复项目。
  *
@@ -95,11 +97,4 @@ public class RemoveDuplicatesFromSortedList {
         return head;
     }
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x){
-            val = x;
-        }
-    }
 }

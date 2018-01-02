@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.ListNode;
+
 /**
  * 问题描述：反转单向链表
  *
@@ -37,9 +39,4 @@ public class ReverseLinkedList {
         return fakeHead.next;
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
 }

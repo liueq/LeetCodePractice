@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -154,13 +156,4 @@ public class LinkedListCycle {
         }
     }
 
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 }

@@ -1,5 +1,7 @@
 package com.liueq.leetcode.easy;
 
+import com.liueq.leetcode.support.ListNode;
+
 /**
  * 描述：合并两个单项链表
  *
@@ -89,12 +91,4 @@ public class MergeTwoSortedLists {
         }
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }
